@@ -6,7 +6,7 @@ public class Gravitacija {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int vis = sc.nextInt();
-        System.out.println(izracunajPospesek(vis));
+        System.out.println("Pospešek na " + vis + "m: " + izracunajPospesek(vis));
     }
     
     public static double izracunajPospesek(int nadVisina) {
